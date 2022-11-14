@@ -1,9 +1,8 @@
 #!name=去APP开屏广告
 #!desc=去APP开屏广告
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
-#!homepage=https://github.com/deezertidal
+#!homepage=https://github.com/deezertidal,  https://github.com/deezertidal/shadowrocket-rules
 #!author=ddgksf2013
-# # from https://github.com/deezertidal/shadowrocket-rules
 [MITM]
 hostname = %APPEND% *.bdstatic.com,m5.amap.com,appapi.huazhu.com,testflight.apple.com,*.music.163.com,pages.xiaohongshu.com, www.xiaohongshu.com, static.zhihu.com
 

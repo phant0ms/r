@@ -1,6 +1,6 @@
 #!name=hs
 #!desc=hs
 [Script]
-hs=type=http-response,pattern=^https:\/\/suishenmaback2\.sh\.gov\.cn\/smzy\/shspace\/hs\/getByMwV3,requires-body=1,script-path=https://raw.githubusercontent.com/phant0ms/r/rule/hs.js,requires-body=1,timeout=10
+hs=type=http-response,pattern=^https://suishenmaback2.sh.gov.cn/smzy/shspace/hs/getByMwV3,requires-body=1,script-path=https://raw.githubusercontent.com/phant0ms/r/rule/hs.js,requires-body=1,timeout=10
 [MITM]
 hostname= %APPEND% suishenmaback2.sh.gov.cn
